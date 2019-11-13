@@ -8,6 +8,7 @@
 #ifndef SYS_TASKS_H
 #define	SYS_TASKS_H
 
+extern unsigned char counter;
 
 void TASK_Inits(void);
 

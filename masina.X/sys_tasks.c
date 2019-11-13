@@ -11,7 +11,11 @@
 #include "mcal_init.h"
 #include "asw_com.h"
 
+#include "light_sig.h"
+
 T_U16 a = 0;
+
+unsigned char counter=0;
 
 void TASK_Inits()
 {
@@ -31,12 +35,13 @@ void TASK_5ms()
 
 void TASK_10ms()
 {   
-
+    counter++;
+    DoHandleLightSig();
 }
 
 void TASK_100ms()
 { 
-    
+   
 }
 
 void TASK_500ms()
@@ -46,6 +51,7 @@ void TASK_500ms()
 
 void TASK_1000ms()
 {
-    a = !a;
-    GPIO_u8WritePortPin(PORT_A, 10, a);
+    
+    //a = !a;
+    //GPIO_u8WritePortPin(PORT_A, 10, a);
 }

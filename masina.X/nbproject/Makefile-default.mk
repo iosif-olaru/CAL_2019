@@ -57,17 +57,17 @@ OBJECTDIR=build/${CND_CONF}/${IMAGE_TYPE}
 DISTDIR=dist/${CND_CONF}/${IMAGE_TYPE}
 
 # Source Files Quoted if spaced
-SOURCEFILES_QUOTED_IF_SPACED=../CAL2019_MCAL/asw_com.c ../CAL2019_MCAL/hal_nRF.c ../CAL2019_MCAL/main.c ../CAL2019_MCAL/mcal_adc.c ../CAL2019_MCAL/mcal_encoder.c ../CAL2019_MCAL/mcal_gpio.c ../CAL2019_MCAL/mcal_init.c ../CAL2019_MCAL/mcal_interrupts.c ../CAL2019_MCAL/mcal_osc.c ../CAL2019_MCAL/mcal_pwm.c ../CAL2019_MCAL/mcal_spi.c ../CAL2019_MCAL/mcal_timers.c ../CAL2019_MCAL/sys_schedule.c ../CAL2019_MCAL/sys_tasks.c
+SOURCEFILES_QUOTED_IF_SPACED=asw_com.c hal_nRF.c light_sig.c main.c mcal_adc.c mcal_encoder.c mcal_gpio.c mcal_init.c mcal_interrupts.c mcal_osc.c mcal_pwm.c mcal_spi.c mcal_timers.c sys_schedule.c sys_tasks.c
 
 # Object Files Quoted if spaced
-OBJECTFILES_QUOTED_IF_SPACED=${OBJECTDIR}/_ext/755160069/asw_com.o ${OBJECTDIR}/_ext/755160069/hal_nRF.o ${OBJECTDIR}/_ext/755160069/main.o ${OBJECTDIR}/_ext/755160069/mcal_adc.o ${OBJECTDIR}/_ext/755160069/mcal_encoder.o ${OBJECTDIR}/_ext/755160069/mcal_gpio.o ${OBJECTDIR}/_ext/755160069/mcal_init.o ${OBJECTDIR}/_ext/755160069/mcal_interrupts.o ${OBJECTDIR}/_ext/755160069/mcal_osc.o ${OBJECTDIR}/_ext/755160069/mcal_pwm.o ${OBJECTDIR}/_ext/755160069/mcal_spi.o ${OBJECTDIR}/_ext/755160069/mcal_timers.o ${OBJECTDIR}/_ext/755160069/sys_schedule.o ${OBJECTDIR}/_ext/755160069/sys_tasks.o
-POSSIBLE_DEPFILES=${OBJECTDIR}/_ext/755160069/asw_com.o.d ${OBJECTDIR}/_ext/755160069/hal_nRF.o.d ${OBJECTDIR}/_ext/755160069/main.o.d ${OBJECTDIR}/_ext/755160069/mcal_adc.o.d ${OBJECTDIR}/_ext/755160069/mcal_encoder.o.d ${OBJECTDIR}/_ext/755160069/mcal_gpio.o.d ${OBJECTDIR}/_ext/755160069/mcal_init.o.d ${OBJECTDIR}/_ext/755160069/mcal_interrupts.o.d ${OBJECTDIR}/_ext/755160069/mcal_osc.o.d ${OBJECTDIR}/_ext/755160069/mcal_pwm.o.d ${OBJECTDIR}/_ext/755160069/mcal_spi.o.d ${OBJECTDIR}/_ext/755160069/mcal_timers.o.d ${OBJECTDIR}/_ext/755160069/sys_schedule.o.d ${OBJECTDIR}/_ext/755160069/sys_tasks.o.d
+OBJECTFILES_QUOTED_IF_SPACED=${OBJECTDIR}/asw_com.o ${OBJECTDIR}/hal_nRF.o ${OBJECTDIR}/light_sig.o ${OBJECTDIR}/main.o ${OBJECTDIR}/mcal_adc.o ${OBJECTDIR}/mcal_encoder.o ${OBJECTDIR}/mcal_gpio.o ${OBJECTDIR}/mcal_init.o ${OBJECTDIR}/mcal_interrupts.o ${OBJECTDIR}/mcal_osc.o ${OBJECTDIR}/mcal_pwm.o ${OBJECTDIR}/mcal_spi.o ${OBJECTDIR}/mcal_timers.o ${OBJECTDIR}/sys_schedule.o ${OBJECTDIR}/sys_tasks.o
+POSSIBLE_DEPFILES=${OBJECTDIR}/asw_com.o.d ${OBJECTDIR}/hal_nRF.o.d ${OBJECTDIR}/light_sig.o.d ${OBJECTDIR}/main.o.d ${OBJECTDIR}/mcal_adc.o.d ${OBJECTDIR}/mcal_encoder.o.d ${OBJECTDIR}/mcal_gpio.o.d ${OBJECTDIR}/mcal_init.o.d ${OBJECTDIR}/mcal_interrupts.o.d ${OBJECTDIR}/mcal_osc.o.d ${OBJECTDIR}/mcal_pwm.o.d ${OBJECTDIR}/mcal_spi.o.d ${OBJECTDIR}/mcal_timers.o.d ${OBJECTDIR}/sys_schedule.o.d ${OBJECTDIR}/sys_tasks.o.d
 
 # Object Files
-OBJECTFILES=${OBJECTDIR}/_ext/755160069/asw_com.o ${OBJECTDIR}/_ext/755160069/hal_nRF.o ${OBJECTDIR}/_ext/755160069/main.o ${OBJECTDIR}/_ext/755160069/mcal_adc.o ${OBJECTDIR}/_ext/755160069/mcal_encoder.o ${OBJECTDIR}/_ext/755160069/mcal_gpio.o ${OBJECTDIR}/_ext/755160069/mcal_init.o ${OBJECTDIR}/_ext/755160069/mcal_interrupts.o ${OBJECTDIR}/_ext/755160069/mcal_osc.o ${OBJECTDIR}/_ext/755160069/mcal_pwm.o ${OBJECTDIR}/_ext/755160069/mcal_spi.o ${OBJECTDIR}/_ext/755160069/mcal_timers.o ${OBJECTDIR}/_ext/755160069/sys_schedule.o ${OBJECTDIR}/_ext/755160069/sys_tasks.o
+OBJECTFILES=${OBJECTDIR}/asw_com.o ${OBJECTDIR}/hal_nRF.o ${OBJECTDIR}/light_sig.o ${OBJECTDIR}/main.o ${OBJECTDIR}/mcal_adc.o ${OBJECTDIR}/mcal_encoder.o ${OBJECTDIR}/mcal_gpio.o ${OBJECTDIR}/mcal_init.o ${OBJECTDIR}/mcal_interrupts.o ${OBJECTDIR}/mcal_osc.o ${OBJECTDIR}/mcal_pwm.o ${OBJECTDIR}/mcal_spi.o ${OBJECTDIR}/mcal_timers.o ${OBJECTDIR}/sys_schedule.o ${OBJECTDIR}/sys_tasks.o
 
 # Source Files
-SOURCEFILES=../CAL2019_MCAL/asw_com.c ../CAL2019_MCAL/hal_nRF.c ../CAL2019_MCAL/main.c ../CAL2019_MCAL/mcal_adc.c ../CAL2019_MCAL/mcal_encoder.c ../CAL2019_MCAL/mcal_gpio.c ../CAL2019_MCAL/mcal_init.c ../CAL2019_MCAL/mcal_interrupts.c ../CAL2019_MCAL/mcal_osc.c ../CAL2019_MCAL/mcal_pwm.c ../CAL2019_MCAL/mcal_spi.c ../CAL2019_MCAL/mcal_timers.c ../CAL2019_MCAL/sys_schedule.c ../CAL2019_MCAL/sys_tasks.c
+SOURCEFILES=asw_com.c hal_nRF.c light_sig.c main.c mcal_adc.c mcal_encoder.c mcal_gpio.c mcal_init.c mcal_interrupts.c mcal_osc.c mcal_pwm.c mcal_spi.c mcal_timers.c sys_schedule.c sys_tasks.c
 
 
 CFLAGS=
@@ -94,202 +94,216 @@ MP_LINKER_FILE_OPTION=,--script=p33FJ128MC804.gld
 # ------------------------------------------------------------------------------------
 # Rules for buildStep: compile
 ifeq ($(TYPE_IMAGE), DEBUG_RUN)
-${OBJECTDIR}/_ext/755160069/asw_com.o: ../CAL2019_MCAL/asw_com.c  nbproject/Makefile-${CND_CONF}.mk
-	@${MKDIR} "${OBJECTDIR}/_ext/755160069" 
-	@${RM} ${OBJECTDIR}/_ext/755160069/asw_com.o.d 
-	@${RM} ${OBJECTDIR}/_ext/755160069/asw_com.o 
-	${MP_CC} $(MP_EXTRA_CC_PRE)  ../CAL2019_MCAL/asw_com.c  -o ${OBJECTDIR}/_ext/755160069/asw_com.o  -c -mcpu=$(MP_PROCESSOR_OPTION)  -MMD -MF "${OBJECTDIR}/_ext/755160069/asw_com.o.d"      -g -D__DEBUG -D__MPLAB_DEBUGGER_PK3=1    -omf=elf -DXPRJ_default=$(CND_CONF)  -legacy-libc  $(COMPARISON_BUILD)  -O0 -msmart-io=1 -Wall -msfr-warn=off  
-	@${FIXDEPS} "${OBJECTDIR}/_ext/755160069/asw_com.o.d" $(SILENT)  -rsi ${MP_CC_DIR}../ 
+${OBJECTDIR}/asw_com.o: asw_com.c  nbproject/Makefile-${CND_CONF}.mk
+	@${MKDIR} "${OBJECTDIR}" 
+	@${RM} ${OBJECTDIR}/asw_com.o.d 
+	@${RM} ${OBJECTDIR}/asw_com.o 
+	${MP_CC} $(MP_EXTRA_CC_PRE)  asw_com.c  -o ${OBJECTDIR}/asw_com.o  -c -mcpu=$(MP_PROCESSOR_OPTION)  -MMD -MF "${OBJECTDIR}/asw_com.o.d"      -g -D__DEBUG -D__MPLAB_DEBUGGER_PK3=1    -omf=elf -DXPRJ_default=$(CND_CONF)  -legacy-libc  $(COMPARISON_BUILD)  -O0 -msmart-io=1 -Wall -msfr-warn=off  
+	@${FIXDEPS} "${OBJECTDIR}/asw_com.o.d" $(SILENT)  -rsi ${MP_CC_DIR}../ 
 	
-${OBJECTDIR}/_ext/755160069/hal_nRF.o: ../CAL2019_MCAL/hal_nRF.c  nbproject/Makefile-${CND_CONF}.mk
-	@${MKDIR} "${OBJECTDIR}/_ext/755160069" 
-	@${RM} ${OBJECTDIR}/_ext/755160069/hal_nRF.o.d 
-	@${RM} ${OBJECTDIR}/_ext/755160069/hal_nRF.o 
-	${MP_CC} $(MP_EXTRA_CC_PRE)  ../CAL2019_MCAL/hal_nRF.c  -o ${OBJECTDIR}/_ext/755160069/hal_nRF.o  -c -mcpu=$(MP_PROCESSOR_OPTION)  -MMD -MF "${OBJECTDIR}/_ext/755160069/hal_nRF.o.d"      -g -D__DEBUG -D__MPLAB_DEBUGGER_PK3=1    -omf=elf -DXPRJ_default=$(CND_CONF)  -legacy-libc  $(COMPARISON_BUILD)  -O0 -msmart-io=1 -Wall -msfr-warn=off  
-	@${FIXDEPS} "${OBJECTDIR}/_ext/755160069/hal_nRF.o.d" $(SILENT)  -rsi ${MP_CC_DIR}../ 
+${OBJECTDIR}/hal_nRF.o: hal_nRF.c  nbproject/Makefile-${CND_CONF}.mk
+	@${MKDIR} "${OBJECTDIR}" 
+	@${RM} ${OBJECTDIR}/hal_nRF.o.d 
+	@${RM} ${OBJECTDIR}/hal_nRF.o 
+	${MP_CC} $(MP_EXTRA_CC_PRE)  hal_nRF.c  -o ${OBJECTDIR}/hal_nRF.o  -c -mcpu=$(MP_PROCESSOR_OPTION)  -MMD -MF "${OBJECTDIR}/hal_nRF.o.d"      -g -D__DEBUG -D__MPLAB_DEBUGGER_PK3=1    -omf=elf -DXPRJ_default=$(CND_CONF)  -legacy-libc  $(COMPARISON_BUILD)  -O0 -msmart-io=1 -Wall -msfr-warn=off  
+	@${FIXDEPS} "${OBJECTDIR}/hal_nRF.o.d" $(SILENT)  -rsi ${MP_CC_DIR}../ 
 	
-${OBJECTDIR}/_ext/755160069/main.o: ../CAL2019_MCAL/main.c  nbproject/Makefile-${CND_CONF}.mk
-	@${MKDIR} "${OBJECTDIR}/_ext/755160069" 
-	@${RM} ${OBJECTDIR}/_ext/755160069/main.o.d 
-	@${RM} ${OBJECTDIR}/_ext/755160069/main.o 
-	${MP_CC} $(MP_EXTRA_CC_PRE)  ../CAL2019_MCAL/main.c  -o ${OBJECTDIR}/_ext/755160069/main.o  -c -mcpu=$(MP_PROCESSOR_OPTION)  -MMD -MF "${OBJECTDIR}/_ext/755160069/main.o.d"      -g -D__DEBUG -D__MPLAB_DEBUGGER_PK3=1    -omf=elf -DXPRJ_default=$(CND_CONF)  -legacy-libc  $(COMPARISON_BUILD)  -O0 -msmart-io=1 -Wall -msfr-warn=off  
-	@${FIXDEPS} "${OBJECTDIR}/_ext/755160069/main.o.d" $(SILENT)  -rsi ${MP_CC_DIR}../ 
+${OBJECTDIR}/light_sig.o: light_sig.c  nbproject/Makefile-${CND_CONF}.mk
+	@${MKDIR} "${OBJECTDIR}" 
+	@${RM} ${OBJECTDIR}/light_sig.o.d 
+	@${RM} ${OBJECTDIR}/light_sig.o 
+	${MP_CC} $(MP_EXTRA_CC_PRE)  light_sig.c  -o ${OBJECTDIR}/light_sig.o  -c -mcpu=$(MP_PROCESSOR_OPTION)  -MMD -MF "${OBJECTDIR}/light_sig.o.d"      -g -D__DEBUG -D__MPLAB_DEBUGGER_PK3=1    -omf=elf -DXPRJ_default=$(CND_CONF)  -legacy-libc  $(COMPARISON_BUILD)  -O0 -msmart-io=1 -Wall -msfr-warn=off  
+	@${FIXDEPS} "${OBJECTDIR}/light_sig.o.d" $(SILENT)  -rsi ${MP_CC_DIR}../ 
 	
-${OBJECTDIR}/_ext/755160069/mcal_adc.o: ../CAL2019_MCAL/mcal_adc.c  nbproject/Makefile-${CND_CONF}.mk
-	@${MKDIR} "${OBJECTDIR}/_ext/755160069" 
-	@${RM} ${OBJECTDIR}/_ext/755160069/mcal_adc.o.d 
-	@${RM} ${OBJECTDIR}/_ext/755160069/mcal_adc.o 
-	${MP_CC} $(MP_EXTRA_CC_PRE)  ../CAL2019_MCAL/mcal_adc.c  -o ${OBJECTDIR}/_ext/755160069/mcal_adc.o  -c -mcpu=$(MP_PROCESSOR_OPTION)  -MMD -MF "${OBJECTDIR}/_ext/755160069/mcal_adc.o.d"      -g -D__DEBUG -D__MPLAB_DEBUGGER_PK3=1    -omf=elf -DXPRJ_default=$(CND_CONF)  -legacy-libc  $(COMPARISON_BUILD)  -O0 -msmart-io=1 -Wall -msfr-warn=off  
-	@${FIXDEPS} "${OBJECTDIR}/_ext/755160069/mcal_adc.o.d" $(SILENT)  -rsi ${MP_CC_DIR}../ 
+${OBJECTDIR}/main.o: main.c  nbproject/Makefile-${CND_CONF}.mk
+	@${MKDIR} "${OBJECTDIR}" 
+	@${RM} ${OBJECTDIR}/main.o.d 
+	@${RM} ${OBJECTDIR}/main.o 
+	${MP_CC} $(MP_EXTRA_CC_PRE)  main.c  -o ${OBJECTDIR}/main.o  -c -mcpu=$(MP_PROCESSOR_OPTION)  -MMD -MF "${OBJECTDIR}/main.o.d"      -g -D__DEBUG -D__MPLAB_DEBUGGER_PK3=1    -omf=elf -DXPRJ_default=$(CND_CONF)  -legacy-libc  $(COMPARISON_BUILD)  -O0 -msmart-io=1 -Wall -msfr-warn=off  
+	@${FIXDEPS} "${OBJECTDIR}/main.o.d" $(SILENT)  -rsi ${MP_CC_DIR}../ 
 	
-${OBJECTDIR}/_ext/755160069/mcal_encoder.o: ../CAL2019_MCAL/mcal_encoder.c  nbproject/Makefile-${CND_CONF}.mk
-	@${MKDIR} "${OBJECTDIR}/_ext/755160069" 
-	@${RM} ${OBJECTDIR}/_ext/755160069/mcal_encoder.o.d 
-	@${RM} ${OBJECTDIR}/_ext/755160069/mcal_encoder.o 
-	${MP_CC} $(MP_EXTRA_CC_PRE)  ../CAL2019_MCAL/mcal_encoder.c  -o ${OBJECTDIR}/_ext/755160069/mcal_encoder.o  -c -mcpu=$(MP_PROCESSOR_OPTION)  -MMD -MF "${OBJECTDIR}/_ext/755160069/mcal_encoder.o.d"      -g -D__DEBUG -D__MPLAB_DEBUGGER_PK3=1    -omf=elf -DXPRJ_default=$(CND_CONF)  -legacy-libc  $(COMPARISON_BUILD)  -O0 -msmart-io=1 -Wall -msfr-warn=off  
-	@${FIXDEPS} "${OBJECTDIR}/_ext/755160069/mcal_encoder.o.d" $(SILENT)  -rsi ${MP_CC_DIR}../ 
+${OBJECTDIR}/mcal_adc.o: mcal_adc.c  nbproject/Makefile-${CND_CONF}.mk
+	@${MKDIR} "${OBJECTDIR}" 
+	@${RM} ${OBJECTDIR}/mcal_adc.o.d 
+	@${RM} ${OBJECTDIR}/mcal_adc.o 
+	${MP_CC} $(MP_EXTRA_CC_PRE)  mcal_adc.c  -o ${OBJECTDIR}/mcal_adc.o  -c -mcpu=$(MP_PROCESSOR_OPTION)  -MMD -MF "${OBJECTDIR}/mcal_adc.o.d"      -g -D__DEBUG -D__MPLAB_DEBUGGER_PK3=1    -omf=elf -DXPRJ_default=$(CND_CONF)  -legacy-libc  $(COMPARISON_BUILD)  -O0 -msmart-io=1 -Wall -msfr-warn=off  
+	@${FIXDEPS} "${OBJECTDIR}/mcal_adc.o.d" $(SILENT)  -rsi ${MP_CC_DIR}../ 
 	
-${OBJECTDIR}/_ext/755160069/mcal_gpio.o: ../CAL2019_MCAL/mcal_gpio.c  nbproject/Makefile-${CND_CONF}.mk
-	@${MKDIR} "${OBJECTDIR}/_ext/755160069" 
-	@${RM} ${OBJECTDIR}/_ext/755160069/mcal_gpio.o.d 
-	@${RM} ${OBJECTDIR}/_ext/755160069/mcal_gpio.o 
-	${MP_CC} $(MP_EXTRA_CC_PRE)  ../CAL2019_MCAL/mcal_gpio.c  -o ${OBJECTDIR}/_ext/755160069/mcal_gpio.o  -c -mcpu=$(MP_PROCESSOR_OPTION)  -MMD -MF "${OBJECTDIR}/_ext/755160069/mcal_gpio.o.d"      -g -D__DEBUG -D__MPLAB_DEBUGGER_PK3=1    -omf=elf -DXPRJ_default=$(CND_CONF)  -legacy-libc  $(COMPARISON_BUILD)  -O0 -msmart-io=1 -Wall -msfr-warn=off  
-	@${FIXDEPS} "${OBJECTDIR}/_ext/755160069/mcal_gpio.o.d" $(SILENT)  -rsi ${MP_CC_DIR}../ 
+${OBJECTDIR}/mcal_encoder.o: mcal_encoder.c  nbproject/Makefile-${CND_CONF}.mk
+	@${MKDIR} "${OBJECTDIR}" 
+	@${RM} ${OBJECTDIR}/mcal_encoder.o.d 
+	@${RM} ${OBJECTDIR}/mcal_encoder.o 
+	${MP_CC} $(MP_EXTRA_CC_PRE)  mcal_encoder.c  -o ${OBJECTDIR}/mcal_encoder.o  -c -mcpu=$(MP_PROCESSOR_OPTION)  -MMD -MF "${OBJECTDIR}/mcal_encoder.o.d"      -g -D__DEBUG -D__MPLAB_DEBUGGER_PK3=1    -omf=elf -DXPRJ_default=$(CND_CONF)  -legacy-libc  $(COMPARISON_BUILD)  -O0 -msmart-io=1 -Wall -msfr-warn=off  
+	@${FIXDEPS} "${OBJECTDIR}/mcal_encoder.o.d" $(SILENT)  -rsi ${MP_CC_DIR}../ 
 	
-${OBJECTDIR}/_ext/755160069/mcal_init.o: ../CAL2019_MCAL/mcal_init.c  nbproject/Makefile-${CND_CONF}.mk
-	@${MKDIR} "${OBJECTDIR}/_ext/755160069" 
-	@${RM} ${OBJECTDIR}/_ext/755160069/mcal_init.o.d 
-	@${RM} ${OBJECTDIR}/_ext/755160069/mcal_init.o 
-	${MP_CC} $(MP_EXTRA_CC_PRE)  ../CAL2019_MCAL/mcal_init.c  -o ${OBJECTDIR}/_ext/755160069/mcal_init.o  -c -mcpu=$(MP_PROCESSOR_OPTION)  -MMD -MF "${OBJECTDIR}/_ext/755160069/mcal_init.o.d"      -g -D__DEBUG -D__MPLAB_DEBUGGER_PK3=1    -omf=elf -DXPRJ_default=$(CND_CONF)  -legacy-libc  $(COMPARISON_BUILD)  -O0 -msmart-io=1 -Wall -msfr-warn=off  
-	@${FIXDEPS} "${OBJECTDIR}/_ext/755160069/mcal_init.o.d" $(SILENT)  -rsi ${MP_CC_DIR}../ 
+${OBJECTDIR}/mcal_gpio.o: mcal_gpio.c  nbproject/Makefile-${CND_CONF}.mk
+	@${MKDIR} "${OBJECTDIR}" 
+	@${RM} ${OBJECTDIR}/mcal_gpio.o.d 
+	@${RM} ${OBJECTDIR}/mcal_gpio.o 
+	${MP_CC} $(MP_EXTRA_CC_PRE)  mcal_gpio.c  -o ${OBJECTDIR}/mcal_gpio.o  -c -mcpu=$(MP_PROCESSOR_OPTION)  -MMD -MF "${OBJECTDIR}/mcal_gpio.o.d"      -g -D__DEBUG -D__MPLAB_DEBUGGER_PK3=1    -omf=elf -DXPRJ_default=$(CND_CONF)  -legacy-libc  $(COMPARISON_BUILD)  -O0 -msmart-io=1 -Wall -msfr-warn=off  
+	@${FIXDEPS} "${OBJECTDIR}/mcal_gpio.o.d" $(SILENT)  -rsi ${MP_CC_DIR}../ 
 	
-${OBJECTDIR}/_ext/755160069/mcal_interrupts.o: ../CAL2019_MCAL/mcal_interrupts.c  nbproject/Makefile-${CND_CONF}.mk
-	@${MKDIR} "${OBJECTDIR}/_ext/755160069" 
-	@${RM} ${OBJECTDIR}/_ext/755160069/mcal_interrupts.o.d 
-	@${RM} ${OBJECTDIR}/_ext/755160069/mcal_interrupts.o 
-	${MP_CC} $(MP_EXTRA_CC_PRE)  ../CAL2019_MCAL/mcal_interrupts.c  -o ${OBJECTDIR}/_ext/755160069/mcal_interrupts.o  -c -mcpu=$(MP_PROCESSOR_OPTION)  -MMD -MF "${OBJECTDIR}/_ext/755160069/mcal_interrupts.o.d"      -g -D__DEBUG -D__MPLAB_DEBUGGER_PK3=1    -omf=elf -DXPRJ_default=$(CND_CONF)  -legacy-libc  $(COMPARISON_BUILD)  -O0 -msmart-io=1 -Wall -msfr-warn=off  
-	@${FIXDEPS} "${OBJECTDIR}/_ext/755160069/mcal_interrupts.o.d" $(SILENT)  -rsi ${MP_CC_DIR}../ 
+${OBJECTDIR}/mcal_init.o: mcal_init.c  nbproject/Makefile-${CND_CONF}.mk
+	@${MKDIR} "${OBJECTDIR}" 
+	@${RM} ${OBJECTDIR}/mcal_init.o.d 
+	@${RM} ${OBJECTDIR}/mcal_init.o 
+	${MP_CC} $(MP_EXTRA_CC_PRE)  mcal_init.c  -o ${OBJECTDIR}/mcal_init.o  -c -mcpu=$(MP_PROCESSOR_OPTION)  -MMD -MF "${OBJECTDIR}/mcal_init.o.d"      -g -D__DEBUG -D__MPLAB_DEBUGGER_PK3=1    -omf=elf -DXPRJ_default=$(CND_CONF)  -legacy-libc  $(COMPARISON_BUILD)  -O0 -msmart-io=1 -Wall -msfr-warn=off  
+	@${FIXDEPS} "${OBJECTDIR}/mcal_init.o.d" $(SILENT)  -rsi ${MP_CC_DIR}../ 
 	
-${OBJECTDIR}/_ext/755160069/mcal_osc.o: ../CAL2019_MCAL/mcal_osc.c  nbproject/Makefile-${CND_CONF}.mk
-	@${MKDIR} "${OBJECTDIR}/_ext/755160069" 
-	@${RM} ${OBJECTDIR}/_ext/755160069/mcal_osc.o.d 
-	@${RM} ${OBJECTDIR}/_ext/755160069/mcal_osc.o 
-	${MP_CC} $(MP_EXTRA_CC_PRE)  ../CAL2019_MCAL/mcal_osc.c  -o ${OBJECTDIR}/_ext/755160069/mcal_osc.o  -c -mcpu=$(MP_PROCESSOR_OPTION)  -MMD -MF "${OBJECTDIR}/_ext/755160069/mcal_osc.o.d"      -g -D__DEBUG -D__MPLAB_DEBUGGER_PK3=1    -omf=elf -DXPRJ_default=$(CND_CONF)  -legacy-libc  $(COMPARISON_BUILD)  -O0 -msmart-io=1 -Wall -msfr-warn=off  
-	@${FIXDEPS} "${OBJECTDIR}/_ext/755160069/mcal_osc.o.d" $(SILENT)  -rsi ${MP_CC_DIR}../ 
+${OBJECTDIR}/mcal_interrupts.o: mcal_interrupts.c  nbproject/Makefile-${CND_CONF}.mk
+	@${MKDIR} "${OBJECTDIR}" 
+	@${RM} ${OBJECTDIR}/mcal_interrupts.o.d 
+	@${RM} ${OBJECTDIR}/mcal_interrupts.o 
+	${MP_CC} $(MP_EXTRA_CC_PRE)  mcal_interrupts.c  -o ${OBJECTDIR}/mcal_interrupts.o  -c -mcpu=$(MP_PROCESSOR_OPTION)  -MMD -MF "${OBJECTDIR}/mcal_interrupts.o.d"      -g -D__DEBUG -D__MPLAB_DEBUGGER_PK3=1    -omf=elf -DXPRJ_default=$(CND_CONF)  -legacy-libc  $(COMPARISON_BUILD)  -O0 -msmart-io=1 -Wall -msfr-warn=off  
+	@${FIXDEPS} "${OBJECTDIR}/mcal_interrupts.o.d" $(SILENT)  -rsi ${MP_CC_DIR}../ 
 	
-${OBJECTDIR}/_ext/755160069/mcal_pwm.o: ../CAL2019_MCAL/mcal_pwm.c  nbproject/Makefile-${CND_CONF}.mk
-	@${MKDIR} "${OBJECTDIR}/_ext/755160069" 
-	@${RM} ${OBJECTDIR}/_ext/755160069/mcal_pwm.o.d 
-	@${RM} ${OBJECTDIR}/_ext/755160069/mcal_pwm.o 
-	${MP_CC} $(MP_EXTRA_CC_PRE)  ../CAL2019_MCAL/mcal_pwm.c  -o ${OBJECTDIR}/_ext/755160069/mcal_pwm.o  -c -mcpu=$(MP_PROCESSOR_OPTION)  -MMD -MF "${OBJECTDIR}/_ext/755160069/mcal_pwm.o.d"      -g -D__DEBUG -D__MPLAB_DEBUGGER_PK3=1    -omf=elf -DXPRJ_default=$(CND_CONF)  -legacy-libc  $(COMPARISON_BUILD)  -O0 -msmart-io=1 -Wall -msfr-warn=off  
-	@${FIXDEPS} "${OBJECTDIR}/_ext/755160069/mcal_pwm.o.d" $(SILENT)  -rsi ${MP_CC_DIR}../ 
+${OBJECTDIR}/mcal_osc.o: mcal_osc.c  nbproject/Makefile-${CND_CONF}.mk
+	@${MKDIR} "${OBJECTDIR}" 
+	@${RM} ${OBJECTDIR}/mcal_osc.o.d 
+	@${RM} ${OBJECTDIR}/mcal_osc.o 
+	${MP_CC} $(MP_EXTRA_CC_PRE)  mcal_osc.c  -o ${OBJECTDIR}/mcal_osc.o  -c -mcpu=$(MP_PROCESSOR_OPTION)  -MMD -MF "${OBJECTDIR}/mcal_osc.o.d"      -g -D__DEBUG -D__MPLAB_DEBUGGER_PK3=1    -omf=elf -DXPRJ_default=$(CND_CONF)  -legacy-libc  $(COMPARISON_BUILD)  -O0 -msmart-io=1 -Wall -msfr-warn=off  
+	@${FIXDEPS} "${OBJECTDIR}/mcal_osc.o.d" $(SILENT)  -rsi ${MP_CC_DIR}../ 
 	
-${OBJECTDIR}/_ext/755160069/mcal_spi.o: ../CAL2019_MCAL/mcal_spi.c  nbproject/Makefile-${CND_CONF}.mk
-	@${MKDIR} "${OBJECTDIR}/_ext/755160069" 
-	@${RM} ${OBJECTDIR}/_ext/755160069/mcal_spi.o.d 
-	@${RM} ${OBJECTDIR}/_ext/755160069/mcal_spi.o 
-	${MP_CC} $(MP_EXTRA_CC_PRE)  ../CAL2019_MCAL/mcal_spi.c  -o ${OBJECTDIR}/_ext/755160069/mcal_spi.o  -c -mcpu=$(MP_PROCESSOR_OPTION)  -MMD -MF "${OBJECTDIR}/_ext/755160069/mcal_spi.o.d"      -g -D__DEBUG -D__MPLAB_DEBUGGER_PK3=1    -omf=elf -DXPRJ_default=$(CND_CONF)  -legacy-libc  $(COMPARISON_BUILD)  -O0 -msmart-io=1 -Wall -msfr-warn=off  
-	@${FIXDEPS} "${OBJECTDIR}/_ext/755160069/mcal_spi.o.d" $(SILENT)  -rsi ${MP_CC_DIR}../ 
+${OBJECTDIR}/mcal_pwm.o: mcal_pwm.c  nbproject/Makefile-${CND_CONF}.mk
+	@${MKDIR} "${OBJECTDIR}" 
+	@${RM} ${OBJECTDIR}/mcal_pwm.o.d 
+	@${RM} ${OBJECTDIR}/mcal_pwm.o 
+	${MP_CC} $(MP_EXTRA_CC_PRE)  mcal_pwm.c  -o ${OBJECTDIR}/mcal_pwm.o  -c -mcpu=$(MP_PROCESSOR_OPTION)  -MMD -MF "${OBJECTDIR}/mcal_pwm.o.d"      -g -D__DEBUG -D__MPLAB_DEBUGGER_PK3=1    -omf=elf -DXPRJ_default=$(CND_CONF)  -legacy-libc  $(COMPARISON_BUILD)  -O0 -msmart-io=1 -Wall -msfr-warn=off  
+	@${FIXDEPS} "${OBJECTDIR}/mcal_pwm.o.d" $(SILENT)  -rsi ${MP_CC_DIR}../ 
 	
-${OBJECTDIR}/_ext/755160069/mcal_timers.o: ../CAL2019_MCAL/mcal_timers.c  nbproject/Makefile-${CND_CONF}.mk
-	@${MKDIR} "${OBJECTDIR}/_ext/755160069" 
-	@${RM} ${OBJECTDIR}/_ext/755160069/mcal_timers.o.d 
-	@${RM} ${OBJECTDIR}/_ext/755160069/mcal_timers.o 
-	${MP_CC} $(MP_EXTRA_CC_PRE)  ../CAL2019_MCAL/mcal_timers.c  -o ${OBJECTDIR}/_ext/755160069/mcal_timers.o  -c -mcpu=$(MP_PROCESSOR_OPTION)  -MMD -MF "${OBJECTDIR}/_ext/755160069/mcal_timers.o.d"      -g -D__DEBUG -D__MPLAB_DEBUGGER_PK3=1    -omf=elf -DXPRJ_default=$(CND_CONF)  -legacy-libc  $(COMPARISON_BUILD)  -O0 -msmart-io=1 -Wall -msfr-warn=off  
-	@${FIXDEPS} "${OBJECTDIR}/_ext/755160069/mcal_timers.o.d" $(SILENT)  -rsi ${MP_CC_DIR}../ 
+${OBJECTDIR}/mcal_spi.o: mcal_spi.c  nbproject/Makefile-${CND_CONF}.mk
+	@${MKDIR} "${OBJECTDIR}" 
+	@${RM} ${OBJECTDIR}/mcal_spi.o.d 
+	@${RM} ${OBJECTDIR}/mcal_spi.o 
+	${MP_CC} $(MP_EXTRA_CC_PRE)  mcal_spi.c  -o ${OBJECTDIR}/mcal_spi.o  -c -mcpu=$(MP_PROCESSOR_OPTION)  -MMD -MF "${OBJECTDIR}/mcal_spi.o.d"      -g -D__DEBUG -D__MPLAB_DEBUGGER_PK3=1    -omf=elf -DXPRJ_default=$(CND_CONF)  -legacy-libc  $(COMPARISON_BUILD)  -O0 -msmart-io=1 -Wall -msfr-warn=off  
+	@${FIXDEPS} "${OBJECTDIR}/mcal_spi.o.d" $(SILENT)  -rsi ${MP_CC_DIR}../ 
 	
-${OBJECTDIR}/_ext/755160069/sys_schedule.o: ../CAL2019_MCAL/sys_schedule.c  nbproject/Makefile-${CND_CONF}.mk
-	@${MKDIR} "${OBJECTDIR}/_ext/755160069" 
-	@${RM} ${OBJECTDIR}/_ext/755160069/sys_schedule.o.d 
-	@${RM} ${OBJECTDIR}/_ext/755160069/sys_schedule.o 
-	${MP_CC} $(MP_EXTRA_CC_PRE)  ../CAL2019_MCAL/sys_schedule.c  -o ${OBJECTDIR}/_ext/755160069/sys_schedule.o  -c -mcpu=$(MP_PROCESSOR_OPTION)  -MMD -MF "${OBJECTDIR}/_ext/755160069/sys_schedule.o.d"      -g -D__DEBUG -D__MPLAB_DEBUGGER_PK3=1    -omf=elf -DXPRJ_default=$(CND_CONF)  -legacy-libc  $(COMPARISON_BUILD)  -O0 -msmart-io=1 -Wall -msfr-warn=off  
-	@${FIXDEPS} "${OBJECTDIR}/_ext/755160069/sys_schedule.o.d" $(SILENT)  -rsi ${MP_CC_DIR}../ 
+${OBJECTDIR}/mcal_timers.o: mcal_timers.c  nbproject/Makefile-${CND_CONF}.mk
+	@${MKDIR} "${OBJECTDIR}" 
+	@${RM} ${OBJECTDIR}/mcal_timers.o.d 
+	@${RM} ${OBJECTDIR}/mcal_timers.o 
+	${MP_CC} $(MP_EXTRA_CC_PRE)  mcal_timers.c  -o ${OBJECTDIR}/mcal_timers.o  -c -mcpu=$(MP_PROCESSOR_OPTION)  -MMD -MF "${OBJECTDIR}/mcal_timers.o.d"      -g -D__DEBUG -D__MPLAB_DEBUGGER_PK3=1    -omf=elf -DXPRJ_default=$(CND_CONF)  -legacy-libc  $(COMPARISON_BUILD)  -O0 -msmart-io=1 -Wall -msfr-warn=off  
+	@${FIXDEPS} "${OBJECTDIR}/mcal_timers.o.d" $(SILENT)  -rsi ${MP_CC_DIR}../ 
 	
-${OBJECTDIR}/_ext/755160069/sys_tasks.o: ../CAL2019_MCAL/sys_tasks.c  nbproject/Makefile-${CND_CONF}.mk
-	@${MKDIR} "${OBJECTDIR}/_ext/755160069" 
-	@${RM} ${OBJECTDIR}/_ext/755160069/sys_tasks.o.d 
-	@${RM} ${OBJECTDIR}/_ext/755160069/sys_tasks.o 
-	${MP_CC} $(MP_EXTRA_CC_PRE)  ../CAL2019_MCAL/sys_tasks.c  -o ${OBJECTDIR}/_ext/755160069/sys_tasks.o  -c -mcpu=$(MP_PROCESSOR_OPTION)  -MMD -MF "${OBJECTDIR}/_ext/755160069/sys_tasks.o.d"      -g -D__DEBUG -D__MPLAB_DEBUGGER_PK3=1    -omf=elf -DXPRJ_default=$(CND_CONF)  -legacy-libc  $(COMPARISON_BUILD)  -O0 -msmart-io=1 -Wall -msfr-warn=off  
-	@${FIXDEPS} "${OBJECTDIR}/_ext/755160069/sys_tasks.o.d" $(SILENT)  -rsi ${MP_CC_DIR}../ 
+${OBJECTDIR}/sys_schedule.o: sys_schedule.c  nbproject/Makefile-${CND_CONF}.mk
+	@${MKDIR} "${OBJECTDIR}" 
+	@${RM} ${OBJECTDIR}/sys_schedule.o.d 
+	@${RM} ${OBJECTDIR}/sys_schedule.o 
+	${MP_CC} $(MP_EXTRA_CC_PRE)  sys_schedule.c  -o ${OBJECTDIR}/sys_schedule.o  -c -mcpu=$(MP_PROCESSOR_OPTION)  -MMD -MF "${OBJECTDIR}/sys_schedule.o.d"      -g -D__DEBUG -D__MPLAB_DEBUGGER_PK3=1    -omf=elf -DXPRJ_default=$(CND_CONF)  -legacy-libc  $(COMPARISON_BUILD)  -O0 -msmart-io=1 -Wall -msfr-warn=off  
+	@${FIXDEPS} "${OBJECTDIR}/sys_schedule.o.d" $(SILENT)  -rsi ${MP_CC_DIR}../ 
+	
+${OBJECTDIR}/sys_tasks.o: sys_tasks.c  nbproject/Makefile-${CND_CONF}.mk
+	@${MKDIR} "${OBJECTDIR}" 
+	@${RM} ${OBJECTDIR}/sys_tasks.o.d 
+	@${RM} ${OBJECTDIR}/sys_tasks.o 
+	${MP_CC} $(MP_EXTRA_CC_PRE)  sys_tasks.c  -o ${OBJECTDIR}/sys_tasks.o  -c -mcpu=$(MP_PROCESSOR_OPTION)  -MMD -MF "${OBJECTDIR}/sys_tasks.o.d"      -g -D__DEBUG -D__MPLAB_DEBUGGER_PK3=1    -omf=elf -DXPRJ_default=$(CND_CONF)  -legacy-libc  $(COMPARISON_BUILD)  -O0 -msmart-io=1 -Wall -msfr-warn=off  
+	@${FIXDEPS} "${OBJECTDIR}/sys_tasks.o.d" $(SILENT)  -rsi ${MP_CC_DIR}../ 
 	
 else
-${OBJECTDIR}/_ext/755160069/asw_com.o: ../CAL2019_MCAL/asw_com.c  nbproject/Makefile-${CND_CONF}.mk
-	@${MKDIR} "${OBJECTDIR}/_ext/755160069" 
-	@${RM} ${OBJECTDIR}/_ext/755160069/asw_com.o.d 
-	@${RM} ${OBJECTDIR}/_ext/755160069/asw_com.o 
-	${MP_CC} $(MP_EXTRA_CC_PRE)  ../CAL2019_MCAL/asw_com.c  -o ${OBJECTDIR}/_ext/755160069/asw_com.o  -c -mcpu=$(MP_PROCESSOR_OPTION)  -MMD -MF "${OBJECTDIR}/_ext/755160069/asw_com.o.d"        -g -omf=elf -DXPRJ_default=$(CND_CONF)  -legacy-libc  $(COMPARISON_BUILD)  -O0 -msmart-io=1 -Wall -msfr-warn=off  
-	@${FIXDEPS} "${OBJECTDIR}/_ext/755160069/asw_com.o.d" $(SILENT)  -rsi ${MP_CC_DIR}../ 
+${OBJECTDIR}/asw_com.o: asw_com.c  nbproject/Makefile-${CND_CONF}.mk
+	@${MKDIR} "${OBJECTDIR}" 
+	@${RM} ${OBJECTDIR}/asw_com.o.d 
+	@${RM} ${OBJECTDIR}/asw_com.o 
+	${MP_CC} $(MP_EXTRA_CC_PRE)  asw_com.c  -o ${OBJECTDIR}/asw_com.o  -c -mcpu=$(MP_PROCESSOR_OPTION)  -MMD -MF "${OBJECTDIR}/asw_com.o.d"        -g -omf=elf -DXPRJ_default=$(CND_CONF)  -legacy-libc  $(COMPARISON_BUILD)  -O0 -msmart-io=1 -Wall -msfr-warn=off  
+	@${FIXDEPS} "${OBJECTDIR}/asw_com.o.d" $(SILENT)  -rsi ${MP_CC_DIR}../ 
 	
-${OBJECTDIR}/_ext/755160069/hal_nRF.o: ../CAL2019_MCAL/hal_nRF.c  nbproject/Makefile-${CND_CONF}.mk
-	@${MKDIR} "${OBJECTDIR}/_ext/755160069" 
-	@${RM} ${OBJECTDIR}/_ext/755160069/hal_nRF.o.d 
-	@${RM} ${OBJECTDIR}/_ext/755160069/hal_nRF.o 
-	${MP_CC} $(MP_EXTRA_CC_PRE)  ../CAL2019_MCAL/hal_nRF.c  -o ${OBJECTDIR}/_ext/755160069/hal_nRF.o  -c -mcpu=$(MP_PROCESSOR_OPTION)  -MMD -MF "${OBJECTDIR}/_ext/755160069/hal_nRF.o.d"        -g -omf=elf -DXPRJ_default=$(CND_CONF)  -legacy-libc  $(COMPARISON_BUILD)  -O0 -msmart-io=1 -Wall -msfr-warn=off  
-	@${FIXDEPS} "${OBJECTDIR}/_ext/755160069/hal_nRF.o.d" $(SILENT)  -rsi ${MP_CC_DIR}../ 
+${OBJECTDIR}/hal_nRF.o: hal_nRF.c  nbproject/Makefile-${CND_CONF}.mk
+	@${MKDIR} "${OBJECTDIR}" 
+	@${RM} ${OBJECTDIR}/hal_nRF.o.d 
+	@${RM} ${OBJECTDIR}/hal_nRF.o 
+	${MP_CC} $(MP_EXTRA_CC_PRE)  hal_nRF.c  -o ${OBJECTDIR}/hal_nRF.o  -c -mcpu=$(MP_PROCESSOR_OPTION)  -MMD -MF "${OBJECTDIR}/hal_nRF.o.d"        -g -omf=elf -DXPRJ_default=$(CND_CONF)  -legacy-libc  $(COMPARISON_BUILD)  -O0 -msmart-io=1 -Wall -msfr-warn=off  
+	@${FIXDEPS} "${OBJECTDIR}/hal_nRF.o.d" $(SILENT)  -rsi ${MP_CC_DIR}../ 
 	
-${OBJECTDIR}/_ext/755160069/main.o: ../CAL2019_MCAL/main.c  nbproject/Makefile-${CND_CONF}.mk
-	@${MKDIR} "${OBJECTDIR}/_ext/755160069" 
-	@${RM} ${OBJECTDIR}/_ext/755160069/main.o.d 
-	@${RM} ${OBJECTDIR}/_ext/755160069/main.o 
-	${MP_CC} $(MP_EXTRA_CC_PRE)  ../CAL2019_MCAL/main.c  -o ${OBJECTDIR}/_ext/755160069/main.o  -c -mcpu=$(MP_PROCESSOR_OPTION)  -MMD -MF "${OBJECTDIR}/_ext/755160069/main.o.d"        -g -omf=elf -DXPRJ_default=$(CND_CONF)  -legacy-libc  $(COMPARISON_BUILD)  -O0 -msmart-io=1 -Wall -msfr-warn=off  
-	@${FIXDEPS} "${OBJECTDIR}/_ext/755160069/main.o.d" $(SILENT)  -rsi ${MP_CC_DIR}../ 
+${OBJECTDIR}/light_sig.o: light_sig.c  nbproject/Makefile-${CND_CONF}.mk
+	@${MKDIR} "${OBJECTDIR}" 
+	@${RM} ${OBJECTDIR}/light_sig.o.d 
+	@${RM} ${OBJECTDIR}/light_sig.o 
+	${MP_CC} $(MP_EXTRA_CC_PRE)  light_sig.c  -o ${OBJECTDIR}/light_sig.o  -c -mcpu=$(MP_PROCESSOR_OPTION)  -MMD -MF "${OBJECTDIR}/light_sig.o.d"        -g -omf=elf -DXPRJ_default=$(CND_CONF)  -legacy-libc  $(COMPARISON_BUILD)  -O0 -msmart-io=1 -Wall -msfr-warn=off  
+	@${FIXDEPS} "${OBJECTDIR}/light_sig.o.d" $(SILENT)  -rsi ${MP_CC_DIR}../ 
 	
-${OBJECTDIR}/_ext/755160069/mcal_adc.o: ../CAL2019_MCAL/mcal_adc.c  nbproject/Makefile-${CND_CONF}.mk
-	@${MKDIR} "${OBJECTDIR}/_ext/755160069" 
-	@${RM} ${OBJECTDIR}/_ext/755160069/mcal_adc.o.d 
-	@${RM} ${OBJECTDIR}/_ext/755160069/mcal_adc.o 
-	${MP_CC} $(MP_EXTRA_CC_PRE)  ../CAL2019_MCAL/mcal_adc.c  -o ${OBJECTDIR}/_ext/755160069/mcal_adc.o  -c -mcpu=$(MP_PROCESSOR_OPTION)  -MMD -MF "${OBJECTDIR}/_ext/755160069/mcal_adc.o.d"        -g -omf=elf -DXPRJ_default=$(CND_CONF)  -legacy-libc  $(COMPARISON_BUILD)  -O0 -msmart-io=1 -Wall -msfr-warn=off  
-	@${FIXDEPS} "${OBJECTDIR}/_ext/755160069/mcal_adc.o.d" $(SILENT)  -rsi ${MP_CC_DIR}../ 
+${OBJECTDIR}/main.o: main.c  nbproject/Makefile-${CND_CONF}.mk
+	@${MKDIR} "${OBJECTDIR}" 
+	@${RM} ${OBJECTDIR}/main.o.d 
+	@${RM} ${OBJECTDIR}/main.o 
+	${MP_CC} $(MP_EXTRA_CC_PRE)  main.c  -o ${OBJECTDIR}/main.o  -c -mcpu=$(MP_PROCESSOR_OPTION)  -MMD -MF "${OBJECTDIR}/main.o.d"        -g -omf=elf -DXPRJ_default=$(CND_CONF)  -legacy-libc  $(COMPARISON_BUILD)  -O0 -msmart-io=1 -Wall -msfr-warn=off  
+	@${FIXDEPS} "${OBJECTDIR}/main.o.d" $(SILENT)  -rsi ${MP_CC_DIR}../ 
 	
-${OBJECTDIR}/_ext/755160069/mcal_encoder.o: ../CAL2019_MCAL/mcal_encoder.c  nbproject/Makefile-${CND_CONF}.mk
-	@${MKDIR} "${OBJECTDIR}/_ext/755160069" 
-	@${RM} ${OBJECTDIR}/_ext/755160069/mcal_encoder.o.d 
-	@${RM} ${OBJECTDIR}/_ext/755160069/mcal_encoder.o 
-	${MP_CC} $(MP_EXTRA_CC_PRE)  ../CAL2019_MCAL/mcal_encoder.c  -o ${OBJECTDIR}/_ext/755160069/mcal_encoder.o  -c -mcpu=$(MP_PROCESSOR_OPTION)  -MMD -MF "${OBJECTDIR}/_ext/755160069/mcal_encoder.o.d"        -g -omf=elf -DXPRJ_default=$(CND_CONF)  -legacy-libc  $(COMPARISON_BUILD)  -O0 -msmart-io=1 -Wall -msfr-warn=off  
-	@${FIXDEPS} "${OBJECTDIR}/_ext/755160069/mcal_encoder.o.d" $(SILENT)  -rsi ${MP_CC_DIR}../ 
+${OBJECTDIR}/mcal_adc.o: mcal_adc.c  nbproject/Makefile-${CND_CONF}.mk
+	@${MKDIR} "${OBJECTDIR}" 
+	@${RM} ${OBJECTDIR}/mcal_adc.o.d 
+	@${RM} ${OBJECTDIR}/mcal_adc.o 
+	${MP_CC} $(MP_EXTRA_CC_PRE)  mcal_adc.c  -o ${OBJECTDIR}/mcal_adc.o  -c -mcpu=$(MP_PROCESSOR_OPTION)  -MMD -MF "${OBJECTDIR}/mcal_adc.o.d"        -g -omf=elf -DXPRJ_default=$(CND_CONF)  -legacy-libc  $(COMPARISON_BUILD)  -O0 -msmart-io=1 -Wall -msfr-warn=off  
+	@${FIXDEPS} "${OBJECTDIR}/mcal_adc.o.d" $(SILENT)  -rsi ${MP_CC_DIR}../ 
 	
-${OBJECTDIR}/_ext/755160069/mcal_gpio.o: ../CAL2019_MCAL/mcal_gpio.c  nbproject/Makefile-${CND_CONF}.mk
-	@${MKDIR} "${OBJECTDIR}/_ext/755160069" 
-	@${RM} ${OBJECTDIR}/_ext/755160069/mcal_gpio.o.d 
-	@${RM} ${OBJECTDIR}/_ext/755160069/mcal_gpio.o 
-	${MP_CC} $(MP_EXTRA_CC_PRE)  ../CAL2019_MCAL/mcal_gpio.c  -o ${OBJECTDIR}/_ext/755160069/mcal_gpio.o  -c -mcpu=$(MP_PROCESSOR_OPTION)  -MMD -MF "${OBJECTDIR}/_ext/755160069/mcal_gpio.o.d"        -g -omf=elf -DXPRJ_default=$(CND_CONF)  -legacy-libc  $(COMPARISON_BUILD)  -O0 -msmart-io=1 -Wall -msfr-warn=off  
-	@${FIXDEPS} "${OBJECTDIR}/_ext/755160069/mcal_gpio.o.d" $(SILENT)  -rsi ${MP_CC_DIR}../ 
+${OBJECTDIR}/mcal_encoder.o: mcal_encoder.c  nbproject/Makefile-${CND_CONF}.mk
+	@${MKDIR} "${OBJECTDIR}" 
+	@${RM} ${OBJECTDIR}/mcal_encoder.o.d 
+	@${RM} ${OBJECTDIR}/mcal_encoder.o 
+	${MP_CC} $(MP_EXTRA_CC_PRE)  mcal_encoder.c  -o ${OBJECTDIR}/mcal_encoder.o  -c -mcpu=$(MP_PROCESSOR_OPTION)  -MMD -MF "${OBJECTDIR}/mcal_encoder.o.d"        -g -omf=elf -DXPRJ_default=$(CND_CONF)  -legacy-libc  $(COMPARISON_BUILD)  -O0 -msmart-io=1 -Wall -msfr-warn=off  
+	@${FIXDEPS} "${OBJECTDIR}/mcal_encoder.o.d" $(SILENT)  -rsi ${MP_CC_DIR}../ 
 	
-${OBJECTDIR}/_ext/755160069/mcal_init.o: ../CAL2019_MCAL/mcal_init.c  nbproject/Makefile-${CND_CONF}.mk
-	@${MKDIR} "${OBJECTDIR}/_ext/755160069" 
-	@${RM} ${OBJECTDIR}/_ext/755160069/mcal_init.o.d 
-	@${RM} ${OBJECTDIR}/_ext/755160069/mcal_init.o 
-	${MP_CC} $(MP_EXTRA_CC_PRE)  ../CAL2019_MCAL/mcal_init.c  -o ${OBJECTDIR}/_ext/755160069/mcal_init.o  -c -mcpu=$(MP_PROCESSOR_OPTION)  -MMD -MF "${OBJECTDIR}/_ext/755160069/mcal_init.o.d"        -g -omf=elf -DXPRJ_default=$(CND_CONF)  -legacy-libc  $(COMPARISON_BUILD)  -O0 -msmart-io=1 -Wall -msfr-warn=off  
-	@${FIXDEPS} "${OBJECTDIR}/_ext/755160069/mcal_init.o.d" $(SILENT)  -rsi ${MP_CC_DIR}../ 
+${OBJECTDIR}/mcal_gpio.o: mcal_gpio.c  nbproject/Makefile-${CND_CONF}.mk
+	@${MKDIR} "${OBJECTDIR}" 
+	@${RM} ${OBJECTDIR}/mcal_gpio.o.d 
+	@${RM} ${OBJECTDIR}/mcal_gpio.o 
+	${MP_CC} $(MP_EXTRA_CC_PRE)  mcal_gpio.c  -o ${OBJECTDIR}/mcal_gpio.o  -c -mcpu=$(MP_PROCESSOR_OPTION)  -MMD -MF "${OBJECTDIR}/mcal_gpio.o.d"        -g -omf=elf -DXPRJ_default=$(CND_CONF)  -legacy-libc  $(COMPARISON_BUILD)  -O0 -msmart-io=1 -Wall -msfr-warn=off  
+	@${FIXDEPS} "${OBJECTDIR}/mcal_gpio.o.d" $(SILENT)  -rsi ${MP_CC_DIR}../ 
 	
-${OBJECTDIR}/_ext/755160069/mcal_interrupts.o: ../CAL2019_MCAL/mcal_interrupts.c  nbproject/Makefile-${CND_CONF}.mk
-	@${MKDIR} "${OBJECTDIR}/_ext/755160069" 
-	@${RM} ${OBJECTDIR}/_ext/755160069/mcal_interrupts.o.d 
-	@${RM} ${OBJECTDIR}/_ext/755160069/mcal_interrupts.o 
-	${MP_CC} $(MP_EXTRA_CC_PRE)  ../CAL2019_MCAL/mcal_interrupts.c  -o ${OBJECTDIR}/_ext/755160069/mcal_interrupts.o  -c -mcpu=$(MP_PROCESSOR_OPTION)  -MMD -MF "${OBJECTDIR}/_ext/755160069/mcal_interrupts.o.d"        -g -omf=elf -DXPRJ_default=$(CND_CONF)  -legacy-libc  $(COMPARISON_BUILD)  -O0 -msmart-io=1 -Wall -msfr-warn=off  
-	@${FIXDEPS} "${OBJECTDIR}/_ext/755160069/mcal_interrupts.o.d" $(SILENT)  -rsi ${MP_CC_DIR}../ 
+${OBJECTDIR}/mcal_init.o: mcal_init.c  nbproject/Makefile-${CND_CONF}.mk
+	@${MKDIR} "${OBJECTDIR}" 
+	@${RM} ${OBJECTDIR}/mcal_init.o.d 
+	@${RM} ${OBJECTDIR}/mcal_init.o 
+	${MP_CC} $(MP_EXTRA_CC_PRE)  mcal_init.c  -o ${OBJECTDIR}/mcal_init.o  -c -mcpu=$(MP_PROCESSOR_OPTION)  -MMD -MF "${OBJECTDIR}/mcal_init.o.d"        -g -omf=elf -DXPRJ_default=$(CND_CONF)  -legacy-libc  $(COMPARISON_BUILD)  -O0 -msmart-io=1 -Wall -msfr-warn=off  
+	@${FIXDEPS} "${OBJECTDIR}/mcal_init.o.d" $(SILENT)  -rsi ${MP_CC_DIR}../ 
 	
-${OBJECTDIR}/_ext/755160069/mcal_osc.o: ../CAL2019_MCAL/mcal_osc.c  nbproject/Makefile-${CND_CONF}.mk
-	@${MKDIR} "${OBJECTDIR}/_ext/755160069" 
-	@${RM} ${OBJECTDIR}/_ext/755160069/mcal_osc.o.d 
-	@${RM} ${OBJECTDIR}/_ext/755160069/mcal_osc.o 
-	${MP_CC} $(MP_EXTRA_CC_PRE)  ../CAL2019_MCAL/mcal_osc.c  -o ${OBJECTDIR}/_ext/755160069/mcal_osc.o  -c -mcpu=$(MP_PROCESSOR_OPTION)  -MMD -MF "${OBJECTDIR}/_ext/755160069/mcal_osc.o.d"        -g -omf=elf -DXPRJ_default=$(CND_CONF)  -legacy-libc  $(COMPARISON_BUILD)  -O0 -msmart-io=1 -Wall -msfr-warn=off  
-	@${FIXDEPS} "${OBJECTDIR}/_ext/755160069/mcal_osc.o.d" $(SILENT)  -rsi ${MP_CC_DIR}../ 
+${OBJECTDIR}/mcal_interrupts.o: mcal_interrupts.c  nbproject/Makefile-${CND_CONF}.mk
+	@${MKDIR} "${OBJECTDIR}" 
+	@${RM} ${OBJECTDIR}/mcal_interrupts.o.d 
+	@${RM} ${OBJECTDIR}/mcal_interrupts.o 
+	${MP_CC} $(MP_EXTRA_CC_PRE)  mcal_interrupts.c  -o ${OBJECTDIR}/mcal_interrupts.o  -c -mcpu=$(MP_PROCESSOR_OPTION)  -MMD -MF "${OBJECTDIR}/mcal_interrupts.o.d"        -g -omf=elf -DXPRJ_default=$(CND_CONF)  -legacy-libc  $(COMPARISON_BUILD)  -O0 -msmart-io=1 -Wall -msfr-warn=off  
+	@${FIXDEPS} "${OBJECTDIR}/mcal_interrupts.o.d" $(SILENT)  -rsi ${MP_CC_DIR}../ 
 	
-${OBJECTDIR}/_ext/755160069/mcal_pwm.o: ../CAL2019_MCAL/mcal_pwm.c  nbproject/Makefile-${CND_CONF}.mk
-	@${MKDIR} "${OBJECTDIR}/_ext/755160069" 
-	@${RM} ${OBJECTDIR}/_ext/755160069/mcal_pwm.o.d 
-	@${RM} ${OBJECTDIR}/_ext/755160069/mcal_pwm.o 
-	${MP_CC} $(MP_EXTRA_CC_PRE)  ../CAL2019_MCAL/mcal_pwm.c  -o ${OBJECTDIR}/_ext/755160069/mcal_pwm.o  -c -mcpu=$(MP_PROCESSOR_OPTION)  -MMD -MF "${OBJECTDIR}/_ext/755160069/mcal_pwm.o.d"        -g -omf=elf -DXPRJ_default=$(CND_CONF)  -legacy-libc  $(COMPARISON_BUILD)  -O0 -msmart-io=1 -Wall -msfr-warn=off  
-	@${FIXDEPS} "${OBJECTDIR}/_ext/755160069/mcal_pwm.o.d" $(SILENT)  -rsi ${MP_CC_DIR}../ 
+${OBJECTDIR}/mcal_osc.o: mcal_osc.c  nbproject/Makefile-${CND_CONF}.mk
+	@${MKDIR} "${OBJECTDIR}" 
+	@${RM} ${OBJECTDIR}/mcal_osc.o.d 
+	@${RM} ${OBJECTDIR}/mcal_osc.o 
+	${MP_CC} $(MP_EXTRA_CC_PRE)  mcal_osc.c  -o ${OBJECTDIR}/mcal_osc.o  -c -mcpu=$(MP_PROCESSOR_OPTION)  -MMD -MF "${OBJECTDIR}/mcal_osc.o.d"        -g -omf=elf -DXPRJ_default=$(CND_CONF)  -legacy-libc  $(COMPARISON_BUILD)  -O0 -msmart-io=1 -Wall -msfr-warn=off  
+	@${FIXDEPS} "${OBJECTDIR}/mcal_osc.o.d" $(SILENT)  -rsi ${MP_CC_DIR}../ 
 	
-${OBJECTDIR}/_ext/755160069/mcal_spi.o: ../CAL2019_MCAL/mcal_spi.c  nbproject/Makefile-${CND_CONF}.mk
-	@${MKDIR} "${OBJECTDIR}/_ext/755160069" 
-	@${RM} ${OBJECTDIR}/_ext/755160069/mcal_spi.o.d 
-	@${RM} ${OBJECTDIR}/_ext/755160069/mcal_spi.o 
-	${MP_CC} $(MP_EXTRA_CC_PRE)  ../CAL2019_MCAL/mcal_spi.c  -o ${OBJECTDIR}/_ext/755160069/mcal_spi.o  -c -mcpu=$(MP_PROCESSOR_OPTION)  -MMD -MF "${OBJECTDIR}/_ext/755160069/mcal_spi.o.d"        -g -omf=elf -DXPRJ_default=$(CND_CONF)  -legacy-libc  $(COMPARISON_BUILD)  -O0 -msmart-io=1 -Wall -msfr-warn=off  
-	@${FIXDEPS} "${OBJECTDIR}/_ext/755160069/mcal_spi.o.d" $(SILENT)  -rsi ${MP_CC_DIR}../ 
+${OBJECTDIR}/mcal_pwm.o: mcal_pwm.c  nbproject/Makefile-${CND_CONF}.mk
+	@${MKDIR} "${OBJECTDIR}" 
+	@${RM} ${OBJECTDIR}/mcal_pwm.o.d 
+	@${RM} ${OBJECTDIR}/mcal_pwm.o 
+	${MP_CC} $(MP_EXTRA_CC_PRE)  mcal_pwm.c  -o ${OBJECTDIR}/mcal_pwm.o  -c -mcpu=$(MP_PROCESSOR_OPTION)  -MMD -MF "${OBJECTDIR}/mcal_pwm.o.d"        -g -omf=elf -DXPRJ_default=$(CND_CONF)  -legacy-libc  $(COMPARISON_BUILD)  -O0 -msmart-io=1 -Wall -msfr-warn=off  
+	@${FIXDEPS} "${OBJECTDIR}/mcal_pwm.o.d" $(SILENT)  -rsi ${MP_CC_DIR}../ 
 	
-${OBJECTDIR}/_ext/755160069/mcal_timers.o: ../CAL2019_MCAL/mcal_timers.c  nbproject/Makefile-${CND_CONF}.mk
-	@${MKDIR} "${OBJECTDIR}/_ext/755160069" 
-	@${RM} ${OBJECTDIR}/_ext/755160069/mcal_timers.o.d 
-	@${RM} ${OBJECTDIR}/_ext/755160069/mcal_timers.o 
-	${MP_CC} $(MP_EXTRA_CC_PRE)  ../CAL2019_MCAL/mcal_timers.c  -o ${OBJECTDIR}/_ext/755160069/mcal_timers.o  -c -mcpu=$(MP_PROCESSOR_OPTION)  -MMD -MF "${OBJECTDIR}/_ext/755160069/mcal_timers.o.d"        -g -omf=elf -DXPRJ_default=$(CND_CONF)  -legacy-libc  $(COMPARISON_BUILD)  -O0 -msmart-io=1 -Wall -msfr-warn=off  
-	@${FIXDEPS} "${OBJECTDIR}/_ext/755160069/mcal_timers.o.d" $(SILENT)  -rsi ${MP_CC_DIR}../ 
+${OBJECTDIR}/mcal_spi.o: mcal_spi.c  nbproject/Makefile-${CND_CONF}.mk
+	@${MKDIR} "${OBJECTDIR}" 
+	@${RM} ${OBJECTDIR}/mcal_spi.o.d 
+	@${RM} ${OBJECTDIR}/mcal_spi.o 
+	${MP_CC} $(MP_EXTRA_CC_PRE)  mcal_spi.c  -o ${OBJECTDIR}/mcal_spi.o  -c -mcpu=$(MP_PROCESSOR_OPTION)  -MMD -MF "${OBJECTDIR}/mcal_spi.o.d"        -g -omf=elf -DXPRJ_default=$(CND_CONF)  -legacy-libc  $(COMPARISON_BUILD)  -O0 -msmart-io=1 -Wall -msfr-warn=off  
+	@${FIXDEPS} "${OBJECTDIR}/mcal_spi.o.d" $(SILENT)  -rsi ${MP_CC_DIR}../ 
 	
-${OBJECTDIR}/_ext/755160069/sys_schedule.o: ../CAL2019_MCAL/sys_schedule.c  nbproject/Makefile-${CND_CONF}.mk
-	@${MKDIR} "${OBJECTDIR}/_ext/755160069" 
-	@${RM} ${OBJECTDIR}/_ext/755160069/sys_schedule.o.d 
-	@${RM} ${OBJECTDIR}/_ext/755160069/sys_schedule.o 
-	${MP_CC} $(MP_EXTRA_CC_PRE)  ../CAL2019_MCAL/sys_schedule.c  -o ${OBJECTDIR}/_ext/755160069/sys_schedule.o  -c -mcpu=$(MP_PROCESSOR_OPTION)  -MMD -MF "${OBJECTDIR}/_ext/755160069/sys_schedule.o.d"        -g -omf=elf -DXPRJ_default=$(CND_CONF)  -legacy-libc  $(COMPARISON_BUILD)  -O0 -msmart-io=1 -Wall -msfr-warn=off  
-	@${FIXDEPS} "${OBJECTDIR}/_ext/755160069/sys_schedule.o.d" $(SILENT)  -rsi ${MP_CC_DIR}../ 
+${OBJECTDIR}/mcal_timers.o: mcal_timers.c  nbproject/Makefile-${CND_CONF}.mk
+	@${MKDIR} "${OBJECTDIR}" 
+	@${RM} ${OBJECTDIR}/mcal_timers.o.d 
+	@${RM} ${OBJECTDIR}/mcal_timers.o 
+	${MP_CC} $(MP_EXTRA_CC_PRE)  mcal_timers.c  -o ${OBJECTDIR}/mcal_timers.o  -c -mcpu=$(MP_PROCESSOR_OPTION)  -MMD -MF "${OBJECTDIR}/mcal_timers.o.d"        -g -omf=elf -DXPRJ_default=$(CND_CONF)  -legacy-libc  $(COMPARISON_BUILD)  -O0 -msmart-io=1 -Wall -msfr-warn=off  
+	@${FIXDEPS} "${OBJECTDIR}/mcal_timers.o.d" $(SILENT)  -rsi ${MP_CC_DIR}../ 
 	
-${OBJECTDIR}/_ext/755160069/sys_tasks.o: ../CAL2019_MCAL/sys_tasks.c  nbproject/Makefile-${CND_CONF}.mk
-	@${MKDIR} "${OBJECTDIR}/_ext/755160069" 
-	@${RM} ${OBJECTDIR}/_ext/755160069/sys_tasks.o.d 
-	@${RM} ${OBJECTDIR}/_ext/755160069/sys_tasks.o 
-	${MP_CC} $(MP_EXTRA_CC_PRE)  ../CAL2019_MCAL/sys_tasks.c  -o ${OBJECTDIR}/_ext/755160069/sys_tasks.o  -c -mcpu=$(MP_PROCESSOR_OPTION)  -MMD -MF "${OBJECTDIR}/_ext/755160069/sys_tasks.o.d"        -g -omf=elf -DXPRJ_default=$(CND_CONF)  -legacy-libc  $(COMPARISON_BUILD)  -O0 -msmart-io=1 -Wall -msfr-warn=off  
-	@${FIXDEPS} "${OBJECTDIR}/_ext/755160069/sys_tasks.o.d" $(SILENT)  -rsi ${MP_CC_DIR}../ 
+${OBJECTDIR}/sys_schedule.o: sys_schedule.c  nbproject/Makefile-${CND_CONF}.mk
+	@${MKDIR} "${OBJECTDIR}" 
+	@${RM} ${OBJECTDIR}/sys_schedule.o.d 
+	@${RM} ${OBJECTDIR}/sys_schedule.o 
+	${MP_CC} $(MP_EXTRA_CC_PRE)  sys_schedule.c  -o ${OBJECTDIR}/sys_schedule.o  -c -mcpu=$(MP_PROCESSOR_OPTION)  -MMD -MF "${OBJECTDIR}/sys_schedule.o.d"        -g -omf=elf -DXPRJ_default=$(CND_CONF)  -legacy-libc  $(COMPARISON_BUILD)  -O0 -msmart-io=1 -Wall -msfr-warn=off  
+	@${FIXDEPS} "${OBJECTDIR}/sys_schedule.o.d" $(SILENT)  -rsi ${MP_CC_DIR}../ 
+	
+${OBJECTDIR}/sys_tasks.o: sys_tasks.c  nbproject/Makefile-${CND_CONF}.mk
+	@${MKDIR} "${OBJECTDIR}" 
+	@${RM} ${OBJECTDIR}/sys_tasks.o.d 
+	@${RM} ${OBJECTDIR}/sys_tasks.o 
+	${MP_CC} $(MP_EXTRA_CC_PRE)  sys_tasks.c  -o ${OBJECTDIR}/sys_tasks.o  -c -mcpu=$(MP_PROCESSOR_OPTION)  -MMD -MF "${OBJECTDIR}/sys_tasks.o.d"        -g -omf=elf -DXPRJ_default=$(CND_CONF)  -legacy-libc  $(COMPARISON_BUILD)  -O0 -msmart-io=1 -Wall -msfr-warn=off  
+	@${FIXDEPS} "${OBJECTDIR}/sys_tasks.o.d" $(SILENT)  -rsi ${MP_CC_DIR}../ 
 	
 endif
 
