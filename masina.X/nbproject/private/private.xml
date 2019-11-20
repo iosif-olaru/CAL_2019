@@ -3,11 +3,17 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/C:/Users/olaru/Desktop/CAL/proiect/abc/CAL_2019/masina.X/nbproject/Makefile-default.mk</file>
-            <file>file:/C:/Users/olaru/Desktop/CAL/proiect/abc/CAL_2019/masina.X/sys_tasks.h</file>
-            <file>file:/C:/Users/olaru/Desktop/CAL/proiect/abc/CAL_2019/masina.X/sys_tasks.c</file>
-            <file>file:/C:/Users/olaru/Desktop/CAL/proiect/abc/CAL_2019/masina.X/light_sig.h</file>
-            <file>file:/C:/Users/olaru/Desktop/CAL/proiect/abc/CAL_2019/masina.X/light_sig.c</file>
+            <file>file:/C:/Users/olaru/Desktop/CAL/proiect/abc/CAL_2019/CAL_2019/masina.X/hal_dc.h</file>
+            <file>file:/C:/Users/olaru/Desktop/CAL/proiect/abc/CAL_2019/CAL_2019/masina.X/sys_schedule.c</file>
+            <file>file:/C:/Users/olaru/Desktop/CAL/proiect/abc/CAL_2019/CAL_2019/masina.X/mcal_pwm.h</file>
+            <file>file:/C:/Users/olaru/Desktop/CAL/proiect/abc/CAL_2019/CAL_2019/masina.X/sys_tasks.h</file>
+            <file>file:/C:/Users/olaru/Desktop/CAL/proiect/abc/CAL_2019/CAL_2019/masina.X/mcal_pwm.c</file>
+            <file>file:/C:/Users/olaru/Desktop/CAL/proiect/abc/CAL_2019/CAL_2019/masina.X/mcal_gpio.h</file>
+            <file>file:/C:/Users/olaru/Desktop/CAL/proiect/abc/CAL_2019/CAL_2019/masina.X/main.c</file>
+            <file>file:/C:/Users/olaru/Desktop/CAL/proiect/abc/CAL_2019/CAL_2019/masina.X/mcal_gpio.c</file>
+            <file>file:/C:/Users/olaru/Desktop/CAL/proiect/abc/CAL_2019/CAL_2019/masina.X/rte.h.h</file>
+            <file>file:/C:/Users/olaru/Desktop/CAL/proiect/abc/CAL_2019/CAL_2019/masina.X/sys_tasks.c</file>
+            <file>file:/C:/Users/olaru/Desktop/CAL/proiect/abc/CAL_2019/CAL_2019/masina.X/hal_dc.c</file>
         </group>
     </open-files>
 </project-private>

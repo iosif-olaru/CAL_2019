@@ -10,6 +10,7 @@
 
 #include "mcal_init.h"
 #include "asw_com.h"
+#include "hal_dc.h"
 
 #include "light_sig.h"
 
@@ -20,7 +21,9 @@ unsigned char counter=0;
 void TASK_Inits()
 {
     MCAL_vInit();
-    GPIO_u8SetPortPin(PORT_A, 10, DIGITAL ,OUTPUT);
+    hal_initDC();
+    //hal_setDirectionDC(1);
+    GPIO_u8SetPortPin(PORT_A, 9,DIGITAL, OUTPUT);
 }
 
 void TASK_1ms()
@@ -41,7 +44,8 @@ void TASK_10ms()
 
 void TASK_100ms()
 { 
-   
+    GPIO_u8WritePortPin(PORT_A, 9, 1);
+   hal_setSpeedDC(20);
 }
 
 void TASK_500ms()
