@@ -14,4 +14,6 @@ mcal_timers.h  \
  mcal_encoder.h  \
 asw_com.h  \
 hal_dc.h  \
-light_sig.h 
+hal_servo.h  \
+light_sig.h  \
+rte.h 

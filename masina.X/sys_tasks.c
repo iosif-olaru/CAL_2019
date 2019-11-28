@@ -11,10 +11,13 @@
 #include "mcal_init.h"
 #include "asw_com.h"
 #include "hal_dc.h"
-
+#include "hal_servo.h"
 #include "light_sig.h"
+#include "rte.h"
 
 T_U16 a = 0;
+
+char c=0;
 
 unsigned char counter=0;
 
@@ -44,8 +47,9 @@ void TASK_10ms()
 
 void TASK_100ms()
 { 
-    GPIO_u8WritePortPin(PORT_A, 9, 1);
-   hal_setSpeedDC(20);
+   //GPIO_u8WritePortPin(PORT_A, 9, 1);
+   //hal_setSpeedDC(20);
+    
 }
 
 void TASK_500ms()
@@ -55,7 +59,16 @@ void TASK_500ms()
 
 void TASK_1000ms()
 {
-    
+    if(c==0)
+    {
+        rte_angle(75);
+        c=1;
+    }
+    else
+    {
+        rte_angle(115);
+        c=0;
+    }
     //a = !a;
     //GPIO_u8WritePortPin(PORT_A, 10, a);
 }
