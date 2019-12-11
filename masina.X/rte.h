@@ -7,7 +7,7 @@
 #define rte_setDirectionDC hal_setDirectionDC
 #define rte_setSpeedDC hal_setSpeedDC
 #define rte_angle hal_angle
-
+#define rte_u16GetLineFollower hal_u16GetLineFollower
 
 #endif	
 

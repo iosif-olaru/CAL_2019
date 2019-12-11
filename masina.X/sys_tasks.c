@@ -25,8 +25,7 @@ void TASK_Inits()
 {
     MCAL_vInit();
     hal_initDC();
-    //hal_setDirectionDC(1);
-    GPIO_u8SetPortPin(PORT_A, 9,DIGITAL, OUTPUT);
+    
 }
 
 void TASK_1ms()
@@ -41,14 +40,20 @@ void TASK_5ms()
 
 void TASK_10ms()
 {   
-    counter++;
-    DoHandleLightSig();
+    if((rte_u16GetLineFollower())==0)
+    {
+        rte_setSpeedDC(20);
+        rte_setDirectionDC(1);
+    }
+    else
+    {
+        rte_setSpeedDC(0);
+    }
 }
 
 void TASK_100ms()
 { 
-   //GPIO_u8WritePortPin(PORT_A, 9, 1);
-   //hal_setSpeedDC(20);
+   
     
 }
 
@@ -59,16 +64,5 @@ void TASK_500ms()
 
 void TASK_1000ms()
 {
-    if(c==0)
-    {
-        rte_angle(75);
-        c=1;
-    }
-    else
-    {
-        rte_angle(115);
-        c=0;
-    }
-    //a = !a;
-    //GPIO_u8WritePortPin(PORT_A, 10, a);
+    
 }
