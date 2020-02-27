@@ -3,17 +3,21 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/C:/Users/olaru/Desktop/CAL/proiect/abc/CAL_2019/CAL_2019/masina.X/hal_dc.h</file>
             <file>file:/C:/Users/olaru/Desktop/CAL/proiect/abc/CAL_2019/CAL_2019/masina.X/hal_lf.c</file>
-            <file>file:/C:/Users/olaru/Desktop/CAL/proiect/abc/CAL_2019/CAL_2019/masina.X/mcal_pwm.h</file>
-            <file>file:/C:/Users/olaru/Desktop/CAL/proiect/abc/CAL_2019/CAL_2019/masina.X/hal_servo.h</file>
-            <file>file:/C:/Users/olaru/Desktop/CAL/proiect/abc/CAL_2019/CAL_2019/masina.X/sys_tasks.h</file>
             <file>file:/C:/Users/olaru/Desktop/CAL/proiect/abc/CAL_2019/CAL_2019/masina.X/mcal_gpio.h</file>
-            <file>file:/C:/Users/olaru/Desktop/CAL/proiect/abc/CAL_2019/CAL_2019/masina.X/hal_lf.h</file>
+            <file>file:/C:/Users/olaru/Desktop/CAL/proiect/abc/CAL_2019/CAL_2019/masina.X/nbproject/Makefile-default.mk</file>
+            <file>file:/C:/Users/olaru/Desktop/CAL/proiect/abc/CAL_2019/CAL_2019/masina.X/mcal_adc.h</file>
+            <file>file:/C:/Users/olaru/Desktop/CAL/proiect/abc/CAL_2019/CAL_2019/masina.X/hal_battery.h</file>
+            <file>file:/C:/Users/olaru/Desktop/CAL/proiect/abc/CAL_2019/CAL_2019/masina.X/mcal_gpio.c</file>
+            <file>file:/C:/Users/olaru/Desktop/CAL/proiect/abc/CAL_2019/CAL_2019/masina.X/hal_battery.c</file>
+            <file>file:/C:/Users/olaru/Desktop/CAL/proiect/abc/CAL_2019/CAL_2019/masina.X/hal_dc.c</file>
+            <file>file:/C:/Users/olaru/Desktop/CAL/proiect/abc/CAL_2019/CAL_2019/masina.X/mcal_interrupts.c</file>
+            <file>file:/C:/Users/olaru/Desktop/CAL/proiect/abc/CAL_2019/CAL_2019/masina.X/hal_servo.h</file>
+            <file>file:/C:/Users/olaru/Desktop/CAL/proiect/abc/CAL_2019/CAL_2019/masina.X/mcal_interrupts.h</file>
             <file>file:/C:/Users/olaru/Desktop/CAL/proiect/abc/CAL_2019/CAL_2019/masina.X/sys_tasks.c</file>
-            <file>file:/C:/Users/olaru/Desktop/CAL/proiect/abc/CAL_2019/CAL_2019/masina.X/hal_servo.c</file>
+            <file>file:/C:/Users/olaru/Desktop/CAL/proiect/abc/CAL_2019/CAL_2019/masina.X/light_sig.c</file>
             <file>file:/C:/Users/olaru/Desktop/CAL/proiect/abc/CAL_2019/CAL_2019/masina.X/general_types.h</file>
-            <file>file:/C:/Users/olaru/Desktop/CAL/proiect/abc/CAL_2019/CAL_2019/masina.X/rte.h</file>
+            <file>file:/C:/Users/olaru/Desktop/CAL/proiect/abc/CAL_2019/CAL_2019/masina.X/hal_servo.c</file>
         </group>
     </open-files>
 </project-private>

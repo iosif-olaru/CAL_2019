@@ -32,3 +32,46 @@ T_U16 hal_u16GetLineFollower()
     PortValue = PortValue & LINE_FOLLOWER_MASK;
     return PortValue;
 }
+
+void hal_functionLineFollower()
+{
+    T_U16 PortValue=hal_u16GetLineFollower();
+    if(PortValue==0)
+        hal_angle(90);
+    
+    if(PortValue==12)
+        hal_angle(90);//1
+    
+    if(PortValue==4)
+        hal_angle(92);//2
+    
+    if(PortValue==8)
+        hal_angle(88);//3
+    
+    if(PortValue==6)
+        hal_angle(98);//4
+    
+    if(PortValue==24)
+        hal_angle(82);//5
+    
+    if(PortValue==2)
+        hal_angle(105);//6
+    
+    if(PortValue==16)
+        hal_angle(75);//7
+    
+    if(PortValue==3)
+        hal_angle(110);//8
+    
+     if(PortValue==48)
+        hal_angle(70);//9
+    
+     if(PortValue==1)
+        hal_angle(115);//10
+    
+     if(PortValue==32)
+        hal_angle(65);//11
+     else
+        hal_angle(120);
+    
+}

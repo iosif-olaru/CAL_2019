@@ -15,5 +15,7 @@ mcal_timers.h  \
 asw_com.h  \
 hal_dc.h  \
 hal_servo.h  \
+hal_lf.h  \
 light_sig.h  \
-rte.h 
+rte.h  \
+ hal_battery.h 
